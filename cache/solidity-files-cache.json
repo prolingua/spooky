@@ -1,0 +1,79 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "/Users/iwaneffendi/Documents/Projects/Fantom/UserGuide/spooky/contracts/SpookyComplexRewarderHandlerV2.sol": {
+      "lastModificationDate": 1670401236490,
+      "contentHash": "6a8b33e4061824fad1ed283ceedff09e",
+      "sourceName": "contracts/SpookyComplexRewarderHandlerV2.sol",
+      "solcConfig": {
+        "version": "0.8.7",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./interfaces/IRewarderHandler.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.4"
+      ],
+      "artifacts": [
+        "IRewarder",
+        "IVaultToken",
+        "SpookyComplexRewarderHandlerV2"
+      ]
+    },
+    "/Users/iwaneffendi/Documents/Projects/Fantom/UserGuide/spooky/contracts/interfaces/IRewarderHandler.sol": {
+      "lastModificationDate": 1670400607953,
+      "contentHash": "8d4482cfe7c5b99b9b05b33e1ba87232",
+      "sourceName": "contracts/interfaces/IRewarderHandler.sol",
+      "solcConfig": {
+        "version": "0.8.7",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.5.0"
+      ],
+      "artifacts": [
+        "IRewarderHandler"
+      ]
+    }
+  }
+}
